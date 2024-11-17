@@ -1,0 +1,7 @@
+name: hw_1_task_3
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12.5
+  - click=8.1.3

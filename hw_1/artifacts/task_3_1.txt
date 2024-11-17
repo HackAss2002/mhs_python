@@ -1,0 +1,4 @@
+(hw_1_task_3) daredevil2002@i113940737:~/projects/python/hw_1/task_3$ python3 __main__.py __main__.py 
+  42  119 1242 __main__.py
+(hw_1_task_3) daredevil2002@i113940737:~/projects/python/hw_1/task_3$ wc __main__.py
+  42  119 1242 __main__.py

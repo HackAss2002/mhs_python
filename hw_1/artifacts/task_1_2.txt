@@ -1,0 +1,14 @@
+(hw_1_task_1) daredevil2002@i113940737:~/projects/python/hw_1/task_1$ nl -b a
+12345
+     1  12345
+6 7
+     2  6 7
+88888
+     3  88888
+(hw_1_task_1) daredevil2002@i113940737:~/projects/python/hw_1/task_1$ python3 __main__.py
+12345
+     1  12345
+6 7
+     2  6 7
+88888
+     3  88888

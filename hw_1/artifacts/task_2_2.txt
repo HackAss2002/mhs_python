@@ -1,0 +1,48 @@
+(hw_1_task_2) daredevil2002@i113940737:~/projects/python/hw_1/task_2$ python3 __main__.py __main__.py ../task_1/__main__.py 
+==> __main__.py <==
+    else:
+        for i, file in enumerate(files):
+            if len(files) > 1:
+                if i != 0:
+                    print("")
+                print(f"==> {file} <==")
+            tail(file)
+
+if __name__ == "__main__":
+    main()
+
+==> ../task_1/__main__.py <==
+        for i, line in enumerate(stdin, start=1):
+            print(f"{i:6}  {line}", end='')
+
+@click.command()
+@click.argument('file', required=False, type=click.Path(exists=True))
+def main(file):
+    nl(file)
+
+if __name__ == "__main__":
+    main()
+(hw_1_task_2) daredevil2002@i113940737:~/projects/python/hw_1/task_2$ tail __main__.py ../task_1/__main__.py 
+==> __main__.py <==
+    else:
+        for i, file in enumerate(files):
+            if len(files) > 1:
+                if i != 0:
+                    print("")
+                print(f"==> {file} <==")
+            tail(file)
+
+if __name__ == "__main__":
+    main()
+
+==> ../task_1/__main__.py <==
+        for i, line in enumerate(stdin, start=1):
+            print(f"{i:6}  {line}", end='')
+
+@click.command()
+@click.argument('file', required=False, type=click.Path(exists=True))
+def main(file):
+    nl(file)
+
+if __name__ == "__main__":
+    main()

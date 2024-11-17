@@ -1,0 +1,40 @@
+(hw_1_task_1) daredevil2002@i113940737:~/projects/python/hw_1/task_1$ python3 __main__.py __main__.py 
+     1  import click
+     2  
+     3  def nl(file):
+     4      if file:
+     5          with open(file, 'r') as f:
+     6              for i, line in enumerate(f, start=1):
+     7                  print(f"{i:6}  {line}", end='')
+     8      else:
+     9          stdin = click.get_text_stream('stdin')
+    10          for i, line in enumerate(stdin, start=1):
+    11              print(f"{i:6}  {line}", end='')
+    12  
+    13  @click.command()
+    14  @click.argument('file', required=False, type=click.Path(exists=True))
+    15  def main(file):
+    16      nl(file)
+    17  
+    18  if __name__ == "__main__":
+    19      main()
+(hw_1_task_1) daredevil2002@i113940737:~/projects/python/hw_1/task_1$ nl -b a __main__.py
+     1  import click
+     2
+     3  def nl(file):
+     4      if file:
+     5          with open(file, 'r') as f:
+     6              for i, line in enumerate(f, start=1):
+     7                  print(f"{i:6}  {line}", end='')
+     8      else:
+     9          stdin = click.get_text_stream('stdin')
+    10          for i, line in enumerate(stdin, start=1):
+    11              print(f"{i:6}  {line}", end='')
+    12
+    13  @click.command()
+    14  @click.argument('file', required=False, type=click.Path(exists=True))
+    15  def main(file):
+    16      nl(file)
+    17
+    18  if __name__ == "__main__":
+    19      main()
