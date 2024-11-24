@@ -1,0 +1,16 @@
+package:
+  name: latex_generator
+  version: "1.0"
+
+source:
+  path: .
+
+build:
+  script: {{ PYTHON }} -m pip install .
+
+requirements:
+  host:
+    - python
+    - setuptools
+  run:
+    - python
