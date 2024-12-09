@@ -1,0 +1,32 @@
+Kupil
+[2024-12-09 12:59:04.945226] Process A received: Kupil
+[2024-12-09 12:59:09.947729] Process B received: kupil
+xhcvy
+Muzhik
+[2024-12-09 12:59:12.851902] Process A received: Muzhik
+[2024-12-09 12:59:17.853043] Process B received: muzhik
+zhmuvx
+Shlyapu
+[2024-12-09 12:59:23.477500] Process A received: Shlyapu
+A
+Ona
+Emu
+[2024-12-09 12:59:28.477977] Process A received: A
+[2024-12-09 12:59:28.478763] Process B received: shlyapu
+fuylnch
+Kak
+Raz
+[2024-12-09 12:59:33.478378] Process A received: Ona
+[2024-12-09 12:59:33.478828] Process B received: a
+n
+[2024-12-09 12:59:38.479393] Process A received: Emu
+[2024-12-09 12:59:38.479903] Process B received: ona
+ban
+[2024-12-09 12:59:43.480089] Process A received: Kak
+[2024-12-09 12:59:43.480724] Process B received: emu
+rzh
+[2024-12-09 12:59:48.480568] Process A received: Raz
+[2024-12-09 12:59:48.480915] Process B received: kak
+xnx
+[2024-12-09 12:59:53.481124] Process B received: raz
+enm
